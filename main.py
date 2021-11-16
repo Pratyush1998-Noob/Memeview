@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from utils import *
+from utils import getMemeURL
 
 app = Flask(__name__)
 
